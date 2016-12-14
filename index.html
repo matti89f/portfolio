@@ -2,10 +2,12 @@
 
 <head>
     <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="stylesocial.css" media="screen">
     <link href="https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="prism-atom-dark.css" type="text/css" media="screen" />
     <script type="text/javascript" src="prism.js"></script>
     <script type="text/javascript" src="prism.ruby.js"></script>
+    <script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
     <title>Matti Hatem</title>
     <meta name="description" content="Matti Hatem is a professional
           software engineer specializing in full-stack development.
@@ -16,13 +18,13 @@
 
 <body>
     <div class="about-container">
-      <ul>
-        <li><a href="#" class="nav-link">About</a></li>
-        <li><a href="#code-samples" class="nav-link">CODE SAMPLES</a></li>
-        <li><a href="#web-apps" class="nav-link">WEB APPS</a></li>
-        <li><a href="#skills-and-tools" class="nav-link">SKILLS &amp; TOOLS</a></li>
-        <li class="hire-me"><a href="#hire-me" class="nav-link">HIRE ME</a></li>
-      </ul>
+        <ul>
+            <li><a href="#" class="nav-link">About</a></li>
+            <li><a href="#code-samples" class="nav-link">CODE SAMPLES</a></li>
+            <li><a href="#web-apps" class="nav-link">WEB APPS</a></li>
+            <li><a href="#skills-and-tools" class="nav-link">SKILLS &amp; TOOLS</a></li>
+            <li class="hire-me"><a href="#hire-me" class="nav-link">HIRE ME</a></li>
+        </ul>
         <div class="about">
             <img src="me1.jpg" alt="me" class="me" />
             <h1>Matti Hatem</h1>
@@ -40,10 +42,9 @@
     <hr class="yellow">
 
     <div class="box">
-        <h4>Temperature Conversion</h4>
-        <p>
-            This ruby program will prompt the user for a temperature in degrees Celsius and let the user know what the corresponding temperature is in Fahrenheit.
-        </p>
+        <h4>Temperature</h4>
+        <a href="http://www.accuweather.com/en/us/new-york-ny/10007/weather-forecast/349727" class="aw-widget-legal"></a>
+        <div id="awcc1481108912541" class="aw-widget-current" data-locationkey="" data-unit="c" data-language="en-us" data-useip="true" data-uid="awcc1481108912541"></div>
     </div>
 
     <div class="box">
@@ -78,10 +79,9 @@ puts &quot;Goodbye&quot;</code></pre>
     </div>
 
     <div class="box">
-        <h4>Ordinal Challenge</h4>
-        <p>
-            This ruby program will convert a plain number to the ordinal of the number. So for example, if the user enters 2, it will display 2nd, if the user enters 3, it will display 3rd, etc.
-        </p>
+
+        <h4>Holiday</h4>
+        <script type="text/javascript" src="http://100widgets.com/js_data.php?id=245"></script>
     </div>
 
     <br class="clear" />
@@ -94,7 +94,7 @@ puts &quot;Goodbye&quot;</code></pre>
     </div>
 
     <div class="box">
-      <pre><code class="language-ruby">
+        <pre><code class="language-ruby">
 class AddAttachmentImageToRestaurants &lt; ActiveRecord::Migration
   def self.up
     change_table :restaurants do |t|
@@ -109,58 +109,81 @@ end
     <h3 id="web-apps">Web Apps</h3>
     <hr class="yellow" />
     <div class="box">
-    <h4><a href="http://lunch-finder.herokuapp.com/">Lunch-Finder</a></h4>
-      <img src="lunchfinder.png" class="full-width" />
-      <p>
-        A resturant database using the Ruby on Rails framework, HTML, and CSS.
-        Uses Git and GitHub for version control, and launched
-        on Heroku.
-      </p>
+        <h4><a href="http://lunch-finder.herokuapp.com/">Lunch-Finder</a></h4>
+        <img src="lunchfinder.png" class="full-width" />
+        <p>
+            A resturant database using the Ruby on Rails framework, HTML, and CSS. Uses Git and GitHub for version control, and launched on Heroku.
+        </p>
     </div>
 
     <div class="box">
-  <h4><a href="http://www.nyiraq.com/" >NY IRAK</a></h4>
-  <img src="ny.png" class="full-width" />
-  <p>
-    Website created to an Oil company in Iraq using HTML und CSS only
-    its basic and static website.
-  </p>
-</div>
-<br class="clear" />
-<h3 id="skills-and-tools">Skills &amp; Tools</h3>
-<hr class="yellow" />
-<p class="skills-and-tools">
-  Matti has developed proficiency and expertise
-  in the following programming languages and
-  comfort with the following tools.
-</p>
-<div class="icons">
-  <img src="github.png" class="icon" />
-  <img src="rubocop.png" class="icon" />
-  <img src="heroku.png" class="icon" />
-  <img src="bootstrap.png" class="icon" />
-  <img src="gitlab.png" class="icon" />
+        <h4><a href="http://www.nyiraq.com/" >NY IRAK</a></h4>
+        <img src="ny.png" class="full-width" />
+        <p>
+            Website created to an Oil company in Iraq using HTML und CSS only its basic and static website.
+        </p>
+    </div>
 
-  <br class="clear" />
-  <img src="skills.png" class="icon"/>
-</div>
 
-<div class="contact-me">
-  <div class="contact-me" id="hire-me">
-  <h3 class="contact-headline">Contact</h3>
-  <hr class="yellow" />
-  <p class="contact-info">
-    Currently entertaining new opportunities.
-    Please get in touch via email:
-  </p>
+    <div class="box">
+        <h4><a href="https://spluring-matti.herokuapp.com/" >Spluring</a></h4>
+        <img src="spluring.png" class="full-width" />
+        <p>
+            Web app for Quotes using ROR, HTML and CSS.
+        </p>
+    </div>
 
-  <p>
-  <a href="mailto:matti.software@hotmail.com" class="contact-link">
+
+
+    <br class="clear" />
+    <h3 id="skills-and-tools">Skills &amp; Tools</h3>
+    <hr class="yellow" />
+    <p class="skills-and-tools">
+        Matti has developed proficiency and expertise in the following programming languages and comfort with the following tools.
+    </p>
+    <div class="icons">
+        <img src="github.png" class="icon" />
+        <img src="rubocop.png" class="icon" />
+        <img src="heroku.png" class="icon" />
+        <img src="bootstrap.png" class="icon" />
+        <img src="gitlab.png" class="icon" />
+        <br class="clear" />
+        <img src="skills.png" class="icon" />
+    </div>
+
+    <div class="contact-me">
+        <div class="contact-me" id="hire-me">
+            <h3 class="contact-headline">Contact</h3>
+            <hr class="yellow" />
+
+            <p class="contact-info">
+                Currently entertaining new opportunities. Please get in touch via :
+            </p>
+
+
+            <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+            <div class="socialicons">
+                <a href="https://twitter.com/mattiking89" class="icon-button twitter">
+                    <i class="fa fa-twitter"></i>
+                    <span></span></a>
+                <a href="https://www.facebook.com/matti.hatem" class="icon-button facebook">
+                    <i class="fa fa-facebook"></i>
+                    <span></span></a>
+                <a href="https://plus.google.com/matti.hatem.ezzat" class="icon-button google-plus">
+                    <i class="fa fa-google"></i>
+                    <span></span></a>
+                <a href="https://de.linkedin.com/in/matti-hatem-ezzat-75598ab8" class="icon-button linkedin">
+                    <i class="fa fa-linkedin"></i><span></span></a>
+                <!-- <a href="#" class="icon-button pinterest">
+  <i class="fa fa-pinterest"></i><span></span></a> -->
+                </a>
+
+                <p>
+                    <a href="mailto:matti.software@hotmail.com" class="contact-link">
     matti.software@hotmail.com
   </a>
-</p>
-
-</div>
+                </p>
+            </div>
 
 </body>
 
